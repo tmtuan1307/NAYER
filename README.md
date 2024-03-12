@@ -1,4 +1,4 @@
-## This repo implements the "NAYER: Noisy Layer Data Generation for Efficient and Effective Data-free Knowledge Distillation" accepted by CVPR 2024.
+## The source code for "NAYER: Noisy Layer Data Generation for Efficient and Effective Data-free Knowledge Distillation" accepted by CVPR 2024.
 
 ## Quick Start
 
