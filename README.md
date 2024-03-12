@@ -1,6 +1,4 @@
-# NAYER
-
-This repo implements the Unleash Data Generation for Efficient and Effective Data-Free Knowledge Distillation
+## This repo implements the "NAYER: Noisy Layer Data Generation for Efficient and Effective Data-free Knowledge Distillation" (CVPR 2024)
 
 ## Quick Start
 
