@@ -20,3 +20,13 @@ python train_scratch.py --model wrn40_2 --dataset cifar10 --batch-size 256 --lr 
     --adv 1.33 --bn 10.0 --oh 0.5 --g_steps 40 --g_life 10 --g_loops 2 --gwp_loops 10 \
     --log_tag c100w402w162-nayer-ep120
     ```
+
+## Paper link: https://arxiv.org/abs/2310.00258
+  ```
+@article{nayer,
+  title={NAYER: Noisy Layer Data Generation for Efficient and Effective Data-free Knowledge Distillation},
+  author={Tran, Minh-Tuan and Le, Trung and Le, Xuan-May and Harandi, Mehrtash and Tran, Quan Hung and Phung, Dinh},
+  journal={arXiv preprint arXiv:2310.00258},
+  year={2023}
+}
+  ```
