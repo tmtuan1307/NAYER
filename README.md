@@ -1,4 +1,5 @@
 ## The source code for "NAYER: Noisy Layer Data Generation for Efficient and Effective Data-free Knowledge Distillation" accepted by CVPR 2024.
+## Paper link: https://arxiv.org/abs/2310.00258
 
 ## Quick Start
 
@@ -21,7 +22,6 @@ python train_scratch.py --model wrn40_2 --dataset cifar10 --batch-size 256 --lr 
     --log_tag c100w402w162-nayer-ep120
     ```
 
-## Paper link: https://arxiv.org/abs/2310.00258
 ## Citation:
   ```
 @article{nayer,
