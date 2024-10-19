@@ -36,10 +36,11 @@ python train_scratch.py --model wrn40_2 --dataset cifar10 --batch-size 256 --lr 
 
 ## Citation:
   ```
-@article{nayer,
-  title={NAYER: Noisy Layer Data Generation for Efficient and Effective Data-free Knowledge Distillation},
-  author={Tran, Minh-Tuan and Le, Trung and Le, Xuan-May and Harandi, Mehrtash and Tran, Quan Hung and Phung, Dinh},
-  journal={arXiv preprint arXiv:2310.00258},
-  year={2023}
+@inproceedings{tran2024text,
+  title={Text-enhanced data-free approach for federated class-incremental learning},
+  author={Tran, Minh-Tuan and Le, Trung and Le, Xuan-May and Harandi, Mehrtash and Phung, Dinh},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={23870--23880},
+  year={2024}
 }
   ```
