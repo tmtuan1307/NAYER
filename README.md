@@ -36,11 +36,11 @@ python train_scratch.py --model wrn40_2 --dataset cifar10 --batch-size 256 --lr 
 
 ## Citation:
   ```
-@inproceedings{tran2024text,
-  title={Text-enhanced data-free approach for federated class-incremental learning},
-  author={Tran, Minh-Tuan and Le, Trung and Le, Xuan-May and Harandi, Mehrtash and Phung, Dinh},
+@inproceedings{nayer,
+  title={Nayer: Noisy layer data generation for efficient and effective data-free knowledge distillation},
+  author={Tran, Minh-Tuan and Le, Trung and Le, Xuan-May and Harandi, Mehrtash and Tran, Quan Hung and Phung, Dinh},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={23870--23880},
+  pages={23860--23869},
   year={2024}
 }
   ```
