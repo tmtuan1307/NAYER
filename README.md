@@ -1,6 +1,18 @@
 ## The source code for "NAYER: Noisy Layer Data Generation for Efficient and Effective Data-free Knowledge Distillation" accepted by CVPR 2024.
 ## Paper link: https://arxiv.org/abs/2310.00258
 
+## Motivation
+
+![alt text](https://github.com/tmtuan1307/NAYER/blob/main/nayer_moti.JPG)
+
+## Method
+
+![alt text](https://github.com/tmtuan1307/NAYER/blob/main/nayer_method.JPG)
+
+## Result
+
+![alt text](https://github.com/tmtuan1307/NAYER/blob/main/nayer_result.jpg)
+
 ## Quick Start
 
 ### 1. Prepare the files
