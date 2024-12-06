@@ -29,7 +29,7 @@ import wandb
 parser = argparse.ArgumentParser(description='Data-free Knowledge Distillation')
 
 # Data Free
-parser.add_argument('--method', default='nldf', choices=['nldf'])
+parser.add_argument('--method', default='nldf')
 parser.add_argument('--adv', default=1.33, type=float, help='scaling factor for adversarial distillation')
 parser.add_argument('--bn', default=10, type=float, help='scaling factor for BN regularization')
 parser.add_argument('--oh', default=0.5, type=float, help='scaling factor for one hot loss (cross entropy)')
@@ -293,7 +293,7 @@ def main_worker(gpu, ngpus_per_node, args):
             synthesizer = datafree.synthesis.NAYER(teacher, student, generator,
                                                   num_classes=num_classes, img_size=(3, 32, 32), init_dataset=args.cmi_init,
                                                   save_dir=args.save_dir, device=args.gpu, transform=ori_dataset.transform,
-                                                  normalizer=args.normalizer,
+                                                  normalizer=args.normalizer, num_workers=args.workers,
                                                   synthesis_batch_size=args.synthesis_batch_size,
                                                   sample_batch_size=args.batch_size,
                                                   g_steps=args.g_steps, warmup=args.warmup, lr_g=args.lr_g, adv=args.adv,
